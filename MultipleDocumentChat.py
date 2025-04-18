@@ -14,7 +14,6 @@ from langchain.chains import LLMChain
 from fastapi.middleware.cors import CORSMiddleware
 import os
 from dotenv import load_dotenv
-import faiss
 import uvicorn
 import numpy as np
 from langchain_groq import ChatGroq
